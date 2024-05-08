@@ -24,6 +24,10 @@ if module.AutodeskData():
 	    print(traceback.format_exc())
 	    pass
 	t.Commit() 
+#Code để dừng code khi chưa chọn trước Element:
+if not Ele:
+    import sys
+    sys.exit()
 
 # Def nay cho current element
 def get_selected_elements(tem_uidoc, tem_doc):
