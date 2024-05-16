@@ -14,6 +14,14 @@ highlight: new
 assembly: ViewFiltersCreation
 command_class: Command
 
+layout:
+  - Column2
+  - -----
+  - Column1
+  - -----
+  - Column3
+  - ">>>>>"
+  - Column4
 
 # -*- coding: utf-8 -*-
 __doc__ = 'nguyenthanhson1712@gmail.com'
