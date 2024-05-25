@@ -76,6 +76,9 @@ def get_parameter_by_name(element, name, is_UTF8 = False):
 
 def get_builtin_parameter_by_name(element, built_in_parameter):
     return param    
+Ví dụ: 
+para_leader_line = module.get_builtin_parameter_by_name(element, DB.BuiltInParameter.DIM_LEADER)
+para_leader_line.Set(int(0))
 
 def get_parameter_value_by_name(element, name, is_UTF8 = False):  
     return param.AsValueString()   
